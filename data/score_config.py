@@ -90,12 +90,12 @@ SEASONS = {
         "NOOR",
         "NOPE",
         "NODE",
-        "NOTR"
+        "NOTR",
         "EL",
         "ELOR",
         "ELPE",
         "ELDE",
-        "ELTR"
+        "ELTR",
         "RE",
         "RESH",
         "EV",
