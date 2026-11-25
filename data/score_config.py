@@ -28,7 +28,7 @@ class ModLimit:
             self.full_name = self.mod
 
 
-CURRENT_SEASON = "s4"  # REMEMBER TO UPDATE ON NEW SEASON
+CURRENT_SEASON = "s5"  # REMEMBER TO UPDATE ON NEW SEASON
 DEFAULT_VALUES = {          # additive, so RESH = RE + RESH
     "NO": ScoreItem(-5),    # normal
     "NOOR": ScoreItem(1),   # orb of chaos
@@ -85,17 +85,26 @@ SEASONS = {
         "EV",
         "EVDE",
     ]),
+    "s5": Season("Season 5", [
+        "NO",
+        "NOOR",
+        "EL",
+        "ELOR",
+        "RE",
+        "RESH",
+        "EV",
+    ]),
     "s*": Season("All", [
         "NO",
         "NOOR",
         "NOPE",
         "NODE",
-        "NOTR"
+        "NOTR",
         "EL",
         "ELOR",
         "ELPE",
         "ELDE",
-        "ELTR"
+        "ELTR",
         "RE",
         "RESH",
         "EV",
@@ -116,7 +125,7 @@ SEASONS = {
 }
 
 DEFAULT_LIMITS = {
-    "SH": ModLimit("SH", "Shop", ["s12", "s3", "s4"], 2),
+    "SH": ModLimit("SH", "Shop", ["s12", "s3", "s4", "s5"], 2),
     "PE": ModLimit("PE", "Persona", ["s3"], 5),
     "DE": ModLimit("DE", "Desire", ["s4"], 4),
 }
